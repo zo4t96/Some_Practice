@@ -26,6 +26,7 @@ namespace InterviewTest
             return ((EqualTest)obj).a == this.a && ((EqualTest)obj).b == this.b;
         }
 
+        // Should override GetHashCode() when you override Equals()
         public override int GetHashCode()
         {
             //return base.GetHashCode(); 
